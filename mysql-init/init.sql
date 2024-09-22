@@ -13,10 +13,10 @@ CREATE TABLE players (
 
 INSERT INTO players (first_name, last_name, city, birth_date) VALUES
 ('Alice', 'Johnson', 'Stockholm', '1992-04-25'),
-('David', 'Smith', 'Malmö', '1988-11-10'),
+('David', 'Smith', 'Kiruna', '1988-11-10'),
 ('Emma', 'Brown', 'Gothenburg', '1995-02-15'),
 ('Oliver', 'Williams', 'Uppsala', '1990-06-30'),
-('Sophia', 'Miller', 'Luleå', '1990-06-05'),
+('Sophia', 'Miller', 'Lund', '1990-06-05'),
 ('James', 'Davis', 'Helsinki', '1985-01-22'),
 ('Mia', 'Wilson', 'Copenhagen', '1998-03-12'),
 ('Lucas', 'Martinez', 'Oslo', '1999-07-28'),
