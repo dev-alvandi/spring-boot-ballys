@@ -15,7 +15,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class Player {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(name = "first_name")
