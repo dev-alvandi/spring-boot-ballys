@@ -11,7 +11,9 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 @Configuration
 public class AppConfig {
@@ -35,7 +37,7 @@ public class AppConfig {
             public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
                 CorsConfiguration cfg = new CorsConfiguration();
                 cfg.setAllowedOrigins(Collections.singletonList(allowedOrigins));
-                cfg.setAllowedMethods(Collections.singletonList("*"));
+                cfg.setAllowedMethods(Collections.singletonList("GET"));
                 cfg.setAllowCredentials(true);
                 cfg.setAllowedHeaders(Collections.singletonList("*"));
                 return cfg;

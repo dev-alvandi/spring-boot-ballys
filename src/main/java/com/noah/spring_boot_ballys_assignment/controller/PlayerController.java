@@ -20,6 +20,7 @@ public class PlayerController {
 
     @GetMapping("/players")
     public ResponseEntity<List<Player>> getAllPlayers() {
+        System.out.println(1);
         List<Player> allPlayers = playerService.getAllPlayersSortedByBirthDate();
         return new ResponseEntity<>(allPlayers, HttpStatus.OK);
     }

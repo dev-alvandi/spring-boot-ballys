@@ -14,11 +14,6 @@ public class PlayerServiceImplementation implements PlayerService{
     private PlayerRepository playerRepository;
 
     @Override
-    public List<Player> getAllPlayers() {
-        return playerRepository.findAll();
-    }
-
-    @Override
     public List<Player> getAllPlayersSortedByBirthDate() {
         return playerRepository.findAllByOrderByBirthDateDesc();
     }

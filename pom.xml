@@ -74,6 +74,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>spring-boot-ballys-assignment</finalName>
 	</build>
 
 </project>
